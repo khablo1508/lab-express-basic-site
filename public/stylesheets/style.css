@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fcd7ad;
+}
+
+/* HOME */
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(246, 194, 139, 0.4),
+      rgba(246, 194, 139, 0.4)
+    ),
+    url('/images/gorosha-home.jpeg') center/cover no-repeat;
+  color: #594236;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container .home-btn {
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  padding-top: 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  background: #5296a5;
+  color: #f6c28b;
+}
+
+/* ABOUT */
+.about-header {
+  width: 100vw;
+  height: 30vh;
+  background: linear-gradient(
+      rgba(246, 194, 139, 0.4),
+      rgba(246, 194, 139, 0.4)
+    ),
+    url('/images/header-pic.jpeg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.about-container {
+  padding: 20px 30px;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-container article {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-container article .description-container {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-container article .description-container h1 {
+  margin-bottom: 10px;
+}
+
+.about-container article img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-btn {
+  margin-bottom: 50px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  background: #5296a5;
+  color: #fff;
+}
